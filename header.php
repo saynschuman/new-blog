@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="icon" href="<?php bloginfo('template_url') ?>/assets/img/favicon.ico">
+<link rel="icon" href="<?php bloginfo('template_url') ?>/assets/img/new/bible.png">
 <title><?php the_title() ?></title>
 <!-- Bootstrap core CSS -->
 <link href="<?php bloginfo('template_url') ?>/assets/css/bootstrap.min.css" rel="stylesheet">
