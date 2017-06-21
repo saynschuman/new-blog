@@ -46,10 +46,10 @@
 			<div class="tag-title">
 				<div class="container">
 					<p class="tags" id="post-titles">
-						<a data-filter=".pt-fashion" href="#">eng</a>
 						<a data-filter=".pt-culture" href="#">укр</a>
 						<a data-filter=".pt-art" href="#">рус</a>
-						<a data-filter="*" href="#" class="unfilter hide">будь-якою мовою</a>
+						<a data-filter=".pt-fashion" href="#">eng</a>
+						<a data-filter="*" href="#" class="unfilter hide">всі статті</a>
 					</p>
 				</div>
 			</div>
@@ -209,7 +209,8 @@
 			<nav class="navbar navbar-fixed-top navbar-laread-white">
 				<div class="container">
 					<div class="navbar-header">
-						<a class="navbar-brand" role="button" href="<?php bloginfo('url') ?>"><img height="45" style="margin-top: 11px" src="<?php bloginfo('template_url') ?>/assets/img/new/bible.png" alt=""></a>
+						<!-- <a class="navbar-brand" data-toggle="modal" data-target="#login-form" href=""><span><i class="fa fa-user"></i></span></a> -->
+						<a class="navbar-brand" data-toggle="modal" data-target="#login-form" href=""><img src="<?php bloginfo('template_url')?>/assets/img/new/user.png" alt=""></a>
 					</div>
 					<div class="get-post-titles push-menu">
 						<button type="button" class="navbar-toggle push-navbar" data-navbar-type="default">
@@ -261,7 +262,7 @@
 									<li><a href="newsletter.html" target="_blank">Newsletter</a></li>
 								</ul> -->
 							</li>
-							<li><a href="" data-toggle="modal" data-target="#login-form"> <i class="fa fa-sign-in" aria-hidden="true"></i> ВХІД</a></li>
+							<li><a href="" class="unfilter hide" data-filter="*" >ВСІ ПУБЛІКАЦІЇ</a></li>
 							
 						</ul>
 					</div><!--/.nav-collapse -->
